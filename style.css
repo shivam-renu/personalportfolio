@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    width: 100vh;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    right: 800px;
+    height: 100vh;
+    width: 60%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.navbar{
+    display: flex;
+    row-gap: 200px;
+    justify-content: end;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    
+}
+.link-group{
+    display: flex;
+    gap: 50px;
+    font-size: 1.2em;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: all 0.5s ;
+}
+a:hover{
+    background-color: rgb(255, 255, 255); 
+    color: #000;
+    /* border-bottom: 2px solid white; */
+}
+.text{
+    font-size: 4em;
+    position: relative;
+    top: 350px;
+    left: 750px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.text-2{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    top: 350px;
+    left: 750px;
+    color: white;
+    text-transform: capitalize;
+    width: 550px;
+}
+.shivam{
+    color: red;
+    animation: color-animation 10s infinite;
+}
+@keyframes color-animation {
+    0%    {color: rgb(255, 255, 255)}
+    15%    {color: rgb(249, 180, 6)}
+    25%   {color: rgb(191, 255, 0)}
+    30%   {color: rgb(0, 68, 255)}
+    35%   {color: rgb(255, 89, 0)}
+    40%   {color: rgb(144, 0, 255)}
+    45%   {color: rgb(200, 0, 255)}
+    50%   {color: rgb(255, 153, 0)}
+    60%   {color: rgb(0, 170, 255)}
+    100%  {color: rgb(255, 0, 0)}
+  }
